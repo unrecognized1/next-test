@@ -1,5 +1,5 @@
 :root{
-	--secondary-text:#8d8d8d;
+    --secondary-text:#8d8d8d;
     --porny-pink:#e45257;
     --porny-pink--disabled:#ca454a;
     --porny-pink--hover:#ca454a;
@@ -7,6 +7,12 @@
     --like:#3ed63e;
     --dislike:#ff444b;
 }
+
+::selection {
+    color: #fff;
+    background: var(--porny-pink);
+}
+
 .listing-videos .listing-item .info .sub {
     color: var(--secondary-text);
     font-size: 13px;
@@ -259,3 +265,5 @@ body::-webkit-scrollbar-thumb {
     overflow: hidden;
         min-width: 7rem;
   }
+
+
